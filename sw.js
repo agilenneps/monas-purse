@@ -1,5 +1,5 @@
 // Mona's Purse offline support: app files are network-first (so updates show up), libraries and fonts are cached.
-const CACHE = 'monas-purse-v1';
+const CACHE = 'monas-purse-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
